@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script defer src="java.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384- GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <title>Proyecto personal |Miro| </title>
+</head>
+
+<body>
+    <header>
+        <a class="logo">
+            <img src="./imagenes/Logo.png" alt="logo">
+            <h2 class="nombre-servicios" text-decoration="none"><span>Mi</span>Ro<span>.</span></h2>
+        </a>
+        <nav>
+            <div class="contenedor">
+                <ul class="links active">
+                    <li class="link"><a href="ProyectoPersonal.html" class="nav-link">Inicio</a></li>
+                    <li class="link"><a href="#QUIENES" class="nav-link">Nosotras</a></li>
+                    <li class="link"><a href="" class="nav-link">Servicios</a></li>
+                    <li class="link"><a href="#redes" class="nav-link">Redes</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="QUIENES">
+            <div>
+                <h1>
+                    ¿QUE ES MIRO?
+                </h1>
+                <p>
+                    MIRO se creo con la ambicion de buscar la libertad financiera de un ama de casa, con amor por las
+                    decoraciones, creación de invitaciones y sobre todo hacer feliz a todas las personas en su
+                    cumpleaños y
+                    celebraciones especiales.
+                </p>
+            </div>
+            <div class="mapa">
+                <h1>
+                    DONDE NOS ENCONTRAMOS?
+                </h1>
+                <div id="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15050.086170474631!2d-99.14870978757806!3d19.433068094894338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92ccb7db8f1%3A0xdfafe735169cbd94!2sCentro%2C%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1709242686899!5m2!1ses-419!2smx"
+                        width="100%" height="300" style="border: black;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <button onclick='muestra_oculta ("mapa")' class="btn btn-secondary" form="contenido">Ubicación</button>
+            </div>
+        </div>
+        <div id="SERVICIOS">
+            <div class="caja-servi">
+                <h2>
+                    QUE SERVICIOS OFRECEMOS
+                </h2>
+            </div>
+            <div class="caja">
+                <h3>
+                    INVITACIONES
+                </h3>
+                <p>
+                    Aqui te queremos mostrar algunos ejemplos de las invitaciones que hemos realizado para algunos de
+                    ustedes.
+                </p>
+                <img src="./imagenes/invitacion lol.png" alt="Invitacion LOL" >
+                <img src="./imagenes/graduación..png" alt="graduación">
+                <img src="./imagenes/Tarjeta Agradecimiento.png" alt="Tarjeta de agradecimiento">
+                </div>
+            <div class="caja">
+                <h3>
+                    DECORACION CON GLOBOS
+                </h3>
+                <p>
+                    Si lo que tu buscas en una decoracion increible con globos para tus eventos, esta es la seccion para
+                    ti.
+                </p>
+
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./imagenes/arco mickey.jpg" class="d-block w-100" class="carrusel" alt="desafio">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagenes/mickey.jpg" class="d-block w-100" class="carrusel" alt="impacto">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagenes/comunion globos.jpg" class="d-block w-100" alt="solucion">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagenes/bautizo globos.jpg" class="d-block w-100" alt="solucion">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="caja">
+                <h3>
+                    DECORACION CON PAPEL
+                </h3>
+                <p>
+                    Si tú eres de los que prefieren algo más simple pero sin perder la belleza de las decoraciones
+                </p>
+                <img src="./imagenes/foto circulos.jpg" alt="circulos">
+                <img src="./imagenes/bautizo.jpg" alt="bautizo">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav class="redes" id="redes">
+            <h4>SIGUENOS EN NUESTRAS REDES.</h4>
+            <ul class="container-fluid">
+                <a href="https://www.facebook.com/MichelRoDecoraciones/">FACEBOOK</a>
+                <a href="https://www.instagram.com/mich_09r/">INSTAGRAM</a>
+                <a href="https://www.tiktok.com/@mica.guama?lang=es">TIKTOK</a>
+                <a href="https://api.whatsapp.com/send?phone=+525541780198&text=Hola%20MIRO%20deseo%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20tus%20(invitaciones%20o%20decoraciones)">WHATSAPP</a>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384- w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

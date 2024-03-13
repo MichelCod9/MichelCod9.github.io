@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Limelight&display=swap');
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #ffefff;
+}
+
+main img {
+    min-width: 25%;
+    max-height: 350px;
+    margin:5px 10px;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0 25px;
+    letter-spacing: 3px;
+    transition: .3s
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: #ffefff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    border: 5px outset #cab3c1;
+    z-index: 100;
+}
+
+h2 {
+    font-family: "Limelight", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.caja h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.links .link a:hover {
+    color: #f6f7fb;
+}
+.links .link{
+    display: inline-block;
+}
+.links .link:hover{
+    background: #a7d9c9;
+}
+
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 5px 0px;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 70px;
+    background-color: #d7e2ea;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.redes {
+    display: flex;
+    align-items: center;
+}
+
+.redes a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin: 0 25px;
+    letter-spacing: 3px;
+    transition: .3s
+}
+.redes a:hover{
+    color: #f3bfb3;
+}
+.redes ul a:hover{
+    background: #445a67;
+}
+
+#QUIENES {
+    background-color: #f3bfb3;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#QUIENES h1 {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+body p {
+    font-family: "Amatic SC", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.redes h4 {
+    font-family: "Limelight", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.caja {
+    background-color: #9eddef;
+    margin: 10px 0 5px 2px;
+    padding: 13px;
+
+}
+.caja-servi{
+    background-color: #beede5;
+    margin: 10px 0 5px 2px;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mapa{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.mapa h1{
+    font-size: 20px;
+}
+.caja img{
+    border: 3px solid #50b4d8;
+    width: 30%;
+}
+.logo h2{
+    color: #c29ba3;
+    letter-spacing: 2px;
+    
+}
+.logo h2 span{
+    color: #a7d9c9;
+    text-decoration: none;
+}
+.carousel{
+    width: 50%;
+}
+.carousel{
+    display: flex;
+    flex-direction: column;
+    margin: 0 25%;
+}
